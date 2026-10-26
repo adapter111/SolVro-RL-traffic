@@ -8,10 +8,12 @@ Zmienna środowiskowa SUMO_HOME
 INSTRUKCJA
 
 1. Sklonuj repo
+   ```bash
    git clone https://github.com/adapter111/SolVro-RL-traffic
    cd SolVro-RL-traffic
+   ```
 
-2. Skonfiguruj zmienną środowiskową SUMO_HOME
+3. Skonfiguruj zmienną środowiskową SUMO_HOME
    2.1 Sprawdź czy zmienna SUMO_HOME jest już ustawiona
      ```pwsh
        echo $env:SUMO_HOME
@@ -25,7 +27,7 @@ INSTRUKCJA
      $env:SUMO_HOME = "C:\...\..."
      ```
 
-3. Zainstaluj wymagane biblioteki
+4. Zainstaluj wymagane biblioteki
    ```bash
    pip install -r requirements.txt
    ```
