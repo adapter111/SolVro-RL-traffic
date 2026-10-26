@@ -32,8 +32,6 @@ INSTRUKCJA
    pip install -r requirements.txt
    ```
 
-
-
 * `xRL.py` - Plik zawierający kod używany do treningu i zapisania wyników.
 * `xVisualize.py` - Plik, który umożliwia odpalenie wizualizacji, na podstawie jednego z czterech wytrenowanych modeli (domyślnie ustawiono model wytrenowany przez 10 epizodów).
 Aby zmienić model wystarczy zamienić nazwę pliku modelu w 17 linijce kodu, przy policy_net.load_state_dict
@@ -42,13 +40,12 @@ Aby zmienić model wystarczy zamienić nazwę pliku modelu w 17 linijce kodu, pr
 * `config.rou.xml` - Definicja tras i natężenia ruchu pojazdów.
 * `traffic_dqn_model_...` - Zapisane wagi wytrenowanych modeli deweloperskich.
 
-
-
 Model trenowany był jedynie na skrzyżowaniu centralnym (ID=J2), z 8 pasami wwozowymi.
 
 Nagrodą dla modelu jest ujemna suma czasu oczekiwania na zakorkowanych pasach.
 
-
+Model można samemu wytrenować na dowolną ilość epizodów wystarczy w xRl.py zmienić wartość episodes=
+Po ukończeniu treningu automatycznie wygeneruje się plik z modelem oraz wykres z wynikami.
 
 WYNIKI TRENINGU
 
