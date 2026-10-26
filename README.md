@@ -58,17 +58,17 @@ Poniżej wykresy wyników każdego z nich.
 
 
 1. _with_10_episodes - Lekko chaotyczny wykres, natomiast widać trend wzrostowy. Najwyższa nagroda około -60 000
-2. 
+   
    <img width="1000" height="500" alt="training_rewards_20261026-185906_with_10_episodes" src="https://github.com/user-attachments/assets/fc9767ea-e085-4663-9e5e-679e07dd288d" />
 
-3. _with_25_episodes - Wyraźnie widać progres modelu. Najwyższa nagroda około -21 000
-4. 
+2. _with_25_episodes - Wyraźnie widać progres modelu. Najwyższa nagroda około -21 000
+   
    <img width="1000" height="500" alt="training_rewards_20261026-190753_with_25_episodes" src="https://github.com/user-attachments/assets/d086e70b-ffed-4ee3-aa1c-db0017515cf3" />
 
-5. _with_50_episodes - Widać szybki wzrost, potem spowolnienie rozwoju. Najwyższa nagroda około -17 000
-6. 
+3. _with_50_episodes - Widać szybki wzrost, potem spowolnienie rozwoju. Najwyższa nagroda około -17 000
+   
    <img width="1000" height="500" alt="training_rewards_20261026-191459_with_50_episodes" src="https://github.com/user-attachments/assets/7179d515-a6d1-4a25-b378-44d3ce0537c9" />
 
-7. _with_100_episodes - Podobnie jak wyżej. Najwyższa nagroda około -11 400
-8. 
+4. _with_100_episodes - Podobnie jak wyżej. Najwyższa nagroda około -11 400
+   
    <img width="1000" height="500" alt="training_rewards_20261026-192605_with_100_episodes" src="https://github.com/user-attachments/assets/1dd082d5-0f77-4e67-82eb-105fdfd0a18d" />
