@@ -1,9 +1,9 @@
 # SolVro-RL-traffic
 
 Wymagania:
-Python (zalecana wersja: 3.13.17)
-SUMO (Simulation of Urban MObility)
-Zmienna środowiskowa SUMO_HOME
+* Python (zalecana wersja: 3.13.17)
+* SUMO (Simulation of Urban MObility)
+* Zmienna środowiskowa SUMO_HOME
 
 INSTRUKCJA
 
